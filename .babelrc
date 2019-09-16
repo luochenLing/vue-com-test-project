@@ -1,0 +1,28 @@
+{
+    "presets": [
+        // "es2015",
+        // {
+        //     "modules": false
+        // },
+        "env",
+        "stage-0"
+    ],
+    "plugins": [
+        [
+            "transform-runtime",
+            {
+                "helpers": true,
+                "polyfill": true,
+                "regenerator": true,
+                "moduleName": "babel-runtime"
+            }
+        ],
+        [
+            "component",
+            {
+                "libraryName": "mint-ui",
+                "style": true
+            }
+        ]
+    ]
+}
