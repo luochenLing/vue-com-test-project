@@ -15,6 +15,7 @@ Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 
 
+
 import app from './App.vue'
 var vm = new Vue({
     el: '#app',
